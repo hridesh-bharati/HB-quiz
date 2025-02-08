@@ -12,7 +12,7 @@ export default function QuizApp() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState(Array(questions.length).fill(null));
   const [showAnswers, setShowAnswers] = useState(false);
-  const [countdown, setCountdown] = useState(122220);
+  const [countdown, setCountdown] = useState(20);
   const [showIntro, setShowIntro] = useState(true);
 
   useEffect(() => {
